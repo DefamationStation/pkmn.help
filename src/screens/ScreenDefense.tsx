@@ -157,22 +157,22 @@ export function ScreenDefense(): ReactNode {
           </Flex>
         </Flex>
 
-        <Flex>
+        <Flex direction="row" gap="medium" align="center">
           <CopyButton text={permalink.href}>{t("general.copyLink")}</CopyButton>
-
-          <Card>
-            <Flex direction="column" gap="large">
-              <FancyText tag="h2" fontSize="large" fontWeight="medium">
-                Best Overall Types
-              </FancyText>
-              <BestTypeMatchups
-                generation={generation}
-                types={types}
-                teraType={teraType}
-              />
-            </Flex>
-          </Card>
         </Flex>
+
+        <Card>
+          <Flex direction="column" gap="large">
+            <FancyText tag="h2" fontSize="large" fontWeight="medium">
+              Best Overall Types
+            </FancyText>
+            <BestTypeMatchups
+              generation={generation}
+              types={types}
+              teraType={teraType}
+            />
+          </Flex>
+        </Card>
       </Flex>
 
       <Flex direction="column" gap="xlarge">
