@@ -125,9 +125,6 @@ pokedexHelp.searchExamples.doubleType.description,Search for Pokémon that are e
 pokedexHelp.searchExamples.singleType.query,grass none,草 无
 pokedexHelp.searchExamples.singleType.description,"Search for Pokémon that are only Grass type, no 2nd type (e.g. Tangela, Chikorita, Lilligant).",搜索只有草属性，没有第二属性的宝可梦（例：蔓藤怪、菊草叶、裙儿小姐）。
 pokedexHelp.back,Back to Pokédex,返回图鉴
-more.contact.heading,Contact me,联系我
-more.contact.intro,"Hi, I'm <homepage>Sage</homepage> (they/them), and I made Pokémon Type Calculator (pkmn.help).",你好，我是 <homepage>Sage</homepage>（they/them)，是宝可梦属性计算器（pkmn.help）的作者。
-more.contact.email,Please email your thoughts and thank-yous to <email>pkmn@wavebeem.com</email>.,请将你的想法和感谢寄到 <email>pkmn@wavebeem.com</email>。
 more.settings.heading,Settings,设定
 more.settings.language.label,Language,语言
 more.settings.language.default,Auto detect language,自动检测语言
@@ -144,20 +141,27 @@ more.settings.typeCount.label,Number of types,属性的数量
 more.settings.typeCount.help,Pokémon can briefly have three types at once if hit with Forests’s Curse or Trick-or-Treat. The third type field is hidden by default since it is rarely used.,如果宝可梦被森林诅咒或万圣夜攻击后则会被追加第三种属性。由于例子很少的原因，第三属性的栏位默认为隐藏。
 more.settings.typeCount.values.2,Two types (2),两种属性（2）
 more.settings.typeCount.values.3,Three types (3),三种属性（3）
-more.changes.heading,What’s new,新闻
-more.changes.description,See what’s new in the <changelog>changelog</changelog>.,点这里 <changelog>changelog</changelog> 查看更新
-more.help.heading,Help,帮助
-more.help.serviceWorker.description,This button can help fix issues in the app.,这个按钮能帮助修复程序的问题。
-more.help.serviceWorker.button,Reset,重置
-more.privacy.heading,Privacy,隐私
-more.privacy.description,"I will never run ads or steal your personal data. I use <plausible>Plausible Analytics</plausible>, which is self-funded, independent, hosted in the EU, and doesn't store any cookies on your computer.",我绝不会投放广告或盗取你的个人数据。我使用的是 <plausible>Plausible Analytics</plausible>，它自筹资金、独立、在欧盟托管，并且不会在您的计算机上存储任何 cookie。
-more.givingBack.heading,Showing appreciation,表示感恩
-more.givingBack.description,"I have spent countless hours improving this site. If you appreciate what I've made, please consider donating to charities that support racial justice and transgender rights.",我花了无数小时改善这个网站。如果你喜欢我做的内容的话，请考虑向支持 BIPOC 和跨性别人士权益的慈善机构捐款。
-more.thanks.heading,Special thanks,特别感谢
-more.thanks.description,See everyone who's helped make this website in the <credits>credits</credits>.,
-more.openSource.heading,Open source,开放原始码
-more.openSource.description,Source code is available on <github>GitHub</github>.,源代码可在 <github>GitHub</github> 上获得。
-more.legalInfo.heading,Legal info,法律信息
+more.changes.heading,,新闻
+more.changes.description,,点这里 <changelog>changelog</changelog> 查看更新
+more.helpMeTranslate.heading,,
+more.helpMeTranslate.description,,
+more.whatsNew.heading,,
+more.whatsNew.description,,
+more.help.heading,,帮助
+more.help.description,,
+more.privacy.heading,,隐私
+more.privacy.description,,我绝不会投放广告或盗取你的个人数据。我使用的是 <plausible>Plausible Analytics</plausible>，它自筹资金、独立、在欧盟托管，并且不会在您的计算机上存储任何 cookie。
+more.showingAppreciation.heading,,
+more.showingAppreciation.description,,
+more.specialThanks.heading,,
+more.specialThanks.description,,
+more.openSource.heading,,开放原始码
+more.openSource.description,,源代码可在 <github>GitHub</github> 上获得。
+more.legalInfo.heading,,法律信息
+more.legalInfo.description,,
+more.contact.heading,,联系我
+more.contact.intro,,你好，我是 <homepage>Sage</homepage>（they/them)，是宝可梦属性计算器（pkmn.help）的作者。
+more.contact.email,,请将你的想法和感谢寄到 <email>pkmn@wavebeem.com</email>。
 types.normal,Normal,一般
 types.fighting,Fighting,格斗
 types.flying,Flying,飞行

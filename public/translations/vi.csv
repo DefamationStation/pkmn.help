@@ -125,9 +125,6 @@ pokedexHelp.searchExamples.doubleType.description,Search for Pokémon that are e
 pokedexHelp.searchExamples.singleType.query,grass none,cỏ trống
 pokedexHelp.searchExamples.singleType.description,"Search for Pokémon that are only Grass type, no 2nd type (e.g. Tangela, Chikorita, Lilligant).","Tìm kiếm các Pokémon chỉ thuộc hệ Cỏ và không hệ thứ hai nào khác (ví dụ: Tangela, Chikorita, Lilligant)."
 pokedexHelp.back,Back to Pokédex,Quay lại trang Pokédex
-more.contact.heading,Contact me,Liên hệ với tôi
-more.contact.intro,"Hi, I'm <homepage>Sage</homepage> (they/them), and I made Pokémon Type Calculator (pkmn.help).","Xin chào, tôi là <homepage>Sage</homepage> vào tôi là người tạo ra trang web Máy Tính Toán Hệ trong Pokémon này (pkmn.help)."
-more.contact.email,Please email your thoughts and thank-yous to <email>pkmn@wavebeem.com</email>.,Bạn có thể email bất kể câu hỏi và cảm ơn đến <email>pkmn@wavebeem.com</email>.
 more.settings.heading,Settings,Cài Đặt
 more.settings.language.label,Language,Ngôn Ngữ
 more.settings.language.default,Auto detect language,Tự động nhận dạng ngôn ngữ
@@ -144,20 +141,27 @@ more.settings.typeCount.label,Number of types,Số lượng hệ
 more.settings.typeCount.help,Pokémon can briefly have three types at once if hit with Forests’s Curse or Trick-or-Treat. The third type field is hidden by default since it is rarely used.,Pokémon có thể có đến 3 hệ (tạm thời) nếu như Pokémon bị dính bời Nguyền Rủa Rừng (Forest's Curse) hoặc Trick-or-Treat. Lựa chọn '3 hệ' bị giấu mặc định do sự hiếm hoi để xảy ra.
 more.settings.typeCount.values.2,Two types (2),Hai hệ (2)
 more.settings.typeCount.values.3,Three types (3),Ba hệ (3)
-more.changes.heading,What’s new,Có gì mới?
-more.changes.description,See what’s new in the <changelog>changelog</changelog>.,Xem các tin tức trong <changelog>trang nhật ký update</changelog> (Tiếng Anh).
-more.help.heading,Help,Hỗ Trợ
-more.help.serviceWorker.description,This button can help fix issues in the app.,"Nếu bạn gặp vấn đề trong app, hãy ấn nút này."
-more.help.serviceWorker.button,Reset,Khởi Động lại
-more.privacy.heading,Privacy,Riêng Tư
-more.privacy.description,"I will never run ads or steal your personal data. I use <plausible>Plausible Analytics</plausible>, which is self-funded, independent, hosted in the EU, and doesn't store any cookies on your computer.","Tôi sẽ không bao giờ chạy ad hay trộm thông tin riêng tư của bạn. Tôi dùng <plausible>Plausible Analytics</plausible>, một trang web độc lập tự tài trợ ở Liên Minh Châu Âu (EU) không dự trữ cookie vào máy tính của bạn."
-more.givingBack.heading,Showing appreciation,Bày tỏ đánh giá
-more.givingBack.description,"I have spent countless hours improving this site. If you appreciate what I've made, please consider donating to charities that support racial justice and transgender rights.","Tôi đã dành bao thời gian cải thiện trang web này. Nếu bạn đánh giá cao thành quả của tôi, nếu có thể, xin bạn quyên góp cho các từ thiện chống phân biệt người da màu và người chuyển giới."
-more.thanks.heading,Special thanks,Chân thành cảm ơn đến
-more.thanks.description,See everyone who's helped make this website in the <credits>credits</credits>.,Xem <credits>trang ghi công</credits> để thấy tất cả những người đã giúp làm trang web này (Tiếng Anh).
-more.openSource.heading,Open source,Nguồn mở
-more.openSource.description,Source code is available on <github>GitHub</github>.,Bản code có sẵn trên <github>GitHub</github>.
-more.legalInfo.heading,Legal info,Thông tin pháp lý
+more.changes.heading,,Có gì mới?
+more.changes.description,,Xem các tin tức trong <changelog>trang nhật ký update</changelog> (Tiếng Anh).
+more.helpMeTranslate.heading,,
+more.helpMeTranslate.description,,
+more.whatsNew.heading,,
+more.whatsNew.description,,
+more.help.heading,,Hỗ Trợ
+more.help.description,,
+more.privacy.heading,,Riêng Tư
+more.privacy.description,,"Tôi sẽ không bao giờ chạy ad hay trộm thông tin riêng tư của bạn. Tôi dùng <plausible>Plausible Analytics</plausible>, một trang web độc lập tự tài trợ ở Liên Minh Châu Âu (EU) không dự trữ cookie vào máy tính của bạn."
+more.showingAppreciation.heading,,
+more.showingAppreciation.description,,
+more.specialThanks.heading,,
+more.specialThanks.description,,
+more.openSource.heading,,Nguồn mở
+more.openSource.description,,Bản code có sẵn trên <github>GitHub</github>.
+more.legalInfo.heading,,Thông tin pháp lý
+more.legalInfo.description,,
+more.contact.heading,,Liên hệ với tôi
+more.contact.intro,,"Xin chào, tôi là <homepage>Sage</homepage> vào tôi là người tạo ra trang web Máy Tính Toán Hệ trong Pokémon này (pkmn.help)."
+more.contact.email,,Bạn có thể email bất kể câu hỏi và cảm ơn đến <email>pkmn@wavebeem.com</email>.
 types.normal,Normal,Thường
 types.fighting,Fighting,Giác Đấu
 types.flying,Flying,Bay

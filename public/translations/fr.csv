@@ -125,9 +125,6 @@ pokedexHelp.searchExamples.doubleType.description,Search for Pokémon that are e
 pokedexHelp.searchExamples.singleType.query,grass none,plante aucun
 pokedexHelp.searchExamples.singleType.description,"Search for Pokémon that are only Grass type, no 2nd type (e.g. Tangela, Chikorita, Lilligant).","Rechercher les Pokémon qui ont seulement le type plante, sans second type (ex. Saquedeneu, Germinon, Fragilady)."
 pokedexHelp.back,Back to Pokédex,Revenir au Pokédex
-more.contact.heading,Contact me,Me contacter
-more.contact.intro,"Hi, I'm <homepage>Sage</homepage> (they/them), and I made Pokémon Type Calculator (pkmn.help).","Bonjour, je suis <homepage>Sage</homepage> (iel), et j'ai créé le Calculateur de types Pokémon (pkmn.help)."
-more.contact.email,Please email your thoughts and thank-yous to <email>pkmn@wavebeem.com</email>.,Veuillez envoyer vos idées et vos remerciements à <email>pkmn@wavebeem.com</email>.
 more.settings.heading,Settings,Paramètres
 more.settings.language.label,Language,Langage
 more.settings.language.default,Auto detect language,Détecter automatiquement la langue
@@ -144,20 +141,27 @@ more.settings.typeCount.label,Number of types,Nombre de types
 more.settings.typeCount.help,Pokémon can briefly have three types at once if hit with Forests’s Curse or Trick-or-Treat. The third type field is hidden by default since it is rarely used.,Un Pokémon peut avoir brièvement 3 types à la fois s'il est touché par la capacité Maléfice Sylvain ou Halloween. Le champ de sélection du troisième type est caché par défaut car il est rarement utilisé.
 more.settings.typeCount.values.2,Two types (2),Deux types (2)
 more.settings.typeCount.values.3,Three types (3),Trois types (3)
-more.changes.heading,What’s new,Quoi de neuf
-more.changes.description,See what’s new in the <changelog>changelog</changelog>.,Voici ce qui a changé dans les <changelog>notes de mise à jour</changelog>
-more.help.heading,Help,Aide
-more.help.serviceWorker.description,This button can help fix issues in the app.,Ce bouton peut aider à résoudre les problèmes dans l’application.
-more.help.serviceWorker.button,Reset,Réinitialiser
-more.privacy.heading,Privacy,Confidentialité
-more.privacy.description,"I will never run ads or steal your personal data. I use <plausible>Plausible Analytics</plausible>, which is self-funded, independent, hosted in the EU, and doesn't store any cookies on your computer.","Je ne diffuserais jamais de publicités ni ne volerais vos données personnelles. J'utilise <plausible>Plausible Analytics</plausible>, qui est autofinancé, indépendant, hébergé dans l'Union Européenne et ne stocke aucun cookie sur votre ordinateur."
-more.givingBack.heading,Showing appreciation,Me remercier
-more.givingBack.description,"I have spent countless hours improving this site. If you appreciate what I've made, please consider donating to charities that support racial justice and transgender rights.","J'ai passé d'innombrables heures à améliorer ce site. Si vous appréciez ce que j'ai fait, veuillez, s'il vous plaît, envisager de faire un don à des organismes de bienfaisance qui soutiennent la justice raciale et les droits des transgenres."
-more.thanks.heading,Special thanks,Remerciements spéciaux
-more.thanks.description,See everyone who's helped make this website in the <credits>credits</credits>.,Ici sont <credits>crédités</credits> toutes les personnes qui m'ont aidé⸱e à faire ce site web.
-more.openSource.heading,Open source,Open source
-more.openSource.description,Source code is available on <github>GitHub</github>.,Le code source est disponible sur <github>GitHub</github>.
-more.legalInfo.heading,Legal info,Informations légales
+more.changes.heading,,Quoi de neuf
+more.changes.description,,Voici ce qui a changé dans les <changelog>notes de mise à jour</changelog>
+more.helpMeTranslate.heading,,
+more.helpMeTranslate.description,,
+more.whatsNew.heading,,
+more.whatsNew.description,,
+more.help.heading,,Aide
+more.help.description,,
+more.privacy.heading,,Confidentialité
+more.privacy.description,,"Je ne diffuserais jamais de publicités ni ne volerais vos données personnelles. J'utilise <plausible>Plausible Analytics</plausible>, qui est autofinancé, indépendant, hébergé dans l'Union Européenne et ne stocke aucun cookie sur votre ordinateur."
+more.showingAppreciation.heading,,
+more.showingAppreciation.description,,
+more.specialThanks.heading,,
+more.specialThanks.description,,
+more.openSource.heading,,Open source
+more.openSource.description,,Le code source est disponible sur <github>GitHub</github>.
+more.legalInfo.heading,,Informations légales
+more.legalInfo.description,,
+more.contact.heading,,Me contacter
+more.contact.intro,,"Bonjour, je suis <homepage>Sage</homepage> (iel), et j'ai créé le Calculateur de types Pokémon (pkmn.help)."
+more.contact.email,,Veuillez envoyer vos idées et vos remerciements à <email>pkmn@wavebeem.com</email>.
 types.normal,Normal,Normal
 types.fighting,Fighting,Combat
 types.flying,Flying,Vol

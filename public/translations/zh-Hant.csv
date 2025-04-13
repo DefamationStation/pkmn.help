@@ -125,9 +125,6 @@ pokedexHelp.searchExamples.doubleType.description,Search for Pokémon that are e
 pokedexHelp.searchExamples.singleType.query,grass none,草 無
 pokedexHelp.searchExamples.singleType.description,"Search for Pokémon that are only Grass type, no 2nd type (e.g. Tangela, Chikorita, Lilligant).",搜索僅具有草屬性的寶可夢，沒有第二屬性（例如，蔓藤怪，菊草葉，裙兒小姐）。
 pokedexHelp.back,Back to Pokédex,返回寶可夢圖鑑
-more.contact.heading,Contact me,聯繫我
-more.contact.intro,"Hi, I'm <homepage>Sage</homepage> (they/them), and I made Pokémon Type Calculator (pkmn.help).",你好，我是 <homepage>Sage</homepage>（他們），我製作了 神奇寶貝屬性計算器 (pkmn.help）。
-more.contact.email,Please email your thoughts and thank-yous to <email>pkmn@wavebeem.com</email>.,請將您的想法和感謝發送到 <email>pkmn@wavebeem.com</email>。
 more.settings.heading,Settings,設置
 more.settings.language.label,Language,語言
 more.settings.language.default,Auto detect language,自動檢測語言
@@ -144,20 +141,27 @@ more.settings.typeCount.label,Number of types,屬性數量
 more.settings.typeCount.help,Pokémon can briefly have three types at once if hit with Forests’s Curse or Trick-or-Treat. The third type field is hidden by default since it is rarely used.,如果受到「森林詛咒」或「不夜城的詛咒」的影響，寶可夢暫時可以同時擁有三種屬性。由於第三個屬性很少使用，因此默認情況下隱藏了第三個屬性字段。
 more.settings.typeCount.values.2,Two types (2),兩種類型 (2)
 more.settings.typeCount.values.3,Three types (3),三種類型 (3)
-more.changes.heading,What’s new,新功能
-more.changes.description,See what’s new in the <changelog>changelog</changelog>.,查看 <changelog>更改日誌</changelog> 中的新功能。
-more.help.heading,Help,幫助
-more.help.serviceWorker.description,This button can help fix issues in the app.,此按鈕可幫助解決應用程序中的問題。
-more.help.serviceWorker.button,Reset,重置
-more.privacy.heading,Privacy,隱私權
-more.privacy.description,"I will never run ads or steal your personal data. I use <plausible>Plausible Analytics</plausible>, which is self-funded, independent, hosted in the EU, and doesn't store any cookies on your computer.",我永遠不會放置廣告或竊取您的個人數據。我使用的 <plausible>合理的分析</plausible> 是自資助的、獨立的、設在歐盟的，不會在您的計算機上存儲任何 cookie。
-more.givingBack.heading,Showing appreciation,表達感激之情
-more.givingBack.description,"I have spent countless hours improving this site. If you appreciate what I've made, please consider donating to charities that support racial justice and transgender rights.",我已經花費了無數時間來改進這個網站。如果您欣賞我的成果，請考慮捐款支持支持非裔和跨性別人士權利的慈善機構。
-more.thanks.heading,Special thanks,特別感謝
-more.thanks.description,See everyone who's helped make this website in the <credits>credits</credits>.,
-more.openSource.heading,Open source,開源
-more.openSource.description,Source code is available on <github>GitHub</github>.,源代碼可在 <github>GitHub</github> 上找到。
-more.legalInfo.heading,Legal info,法律信息
+more.changes.heading,,新功能
+more.changes.description,,查看 <changelog>更改日誌</changelog> 中的新功能。
+more.helpMeTranslate.heading,,
+more.helpMeTranslate.description,,
+more.whatsNew.heading,,
+more.whatsNew.description,,
+more.help.heading,,幫助
+more.help.description,,
+more.privacy.heading,,隱私權
+more.privacy.description,,我永遠不會放置廣告或竊取您的個人數據。我使用的 <plausible>合理的分析</plausible> 是自資助的、獨立的、設在歐盟的，不會在您的計算機上存儲任何 cookie。
+more.showingAppreciation.heading,,
+more.showingAppreciation.description,,
+more.specialThanks.heading,,
+more.specialThanks.description,,
+more.openSource.heading,,開源
+more.openSource.description,,源代碼可在 <github>GitHub</github> 上找到。
+more.legalInfo.heading,,法律信息
+more.legalInfo.description,,
+more.contact.heading,,聯繫我
+more.contact.intro,,你好，我是 <homepage>Sage</homepage>（他們），我製作了 神奇寶貝屬性計算器 (pkmn.help）。
+more.contact.email,,請將您的想法和感謝發送到 <email>pkmn@wavebeem.com</email>。
 types.normal,Normal,一般
 types.fighting,Fighting,格鬥
 types.flying,Flying,飛行

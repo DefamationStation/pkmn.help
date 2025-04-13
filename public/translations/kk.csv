@@ -125,9 +125,6 @@ pokedexHelp.searchExamples.doubleType.description,Search for Pokémon that are e
 pokedexHelp.searchExamples.singleType.query,grass none,шөпті ештеңе
 pokedexHelp.searchExamples.singleType.description,"Search for Pokémon that are only Grass type, no 2nd type (e.g. Tangela, Chikorita, Lilligant).","Тек шөпті типі бар және екінші типі жоқ Покемонды іздеу (мысалға Танжелла, Чикорита, Лилигант)."
 pokedexHelp.back,Back to Pokédex,Покедекске қайту
-more.contact.heading,Contact me,Менімен Байланысыңыз
-more.contact.intro,"Hi, I'm <homepage>Sage</homepage> (they/them), and I made Pokémon Type Calculator (pkmn.help).","Сәлем, мен <homepage>Sage</homepage> (ол/олар(they/them)), және мен Покемон Тип Калькуляторын жасадым(pkmn.help)."
-more.contact.email,Please email your thoughts and thank-yous to <email>pkmn@wavebeem.com</email>.,"Өтініш, өз ойларыңызды және рақметтеріңізді <email>pkmn@wavebeem.com</email> поштасына жіберіңіз."
 more.settings.heading,Settings,Баптаулар
 more.settings.language.label,Language,Тіл
 more.settings.language.default,Auto detect language,Авто танылған тіл
@@ -144,20 +141,27 @@ more.settings.typeCount.label,Number of types,Типтер саны
 more.settings.typeCount.help,Pokémon can briefly have three types at once if hit with Forests’s Curse or Trick-or-Treat. The third type field is hidden by default since it is rarely used.,"Покемондар Forests's Curse немесе Trick-or-Treat-пен шабулданса шынында да үш типті болуы мүмкін. Үшінші тип бастапқыдан тығулы, себебі оны сирек қолданады."
 more.settings.typeCount.values.2,Two types (2),Екі тип (2)
 more.settings.typeCount.values.3,Three types (3),Үш тип (3)
-more.changes.heading,What’s new,
-more.changes.description,See what’s new in the <changelog>changelog</changelog>.,
-more.help.heading,Help,Көмек
-more.help.serviceWorker.description,This button can help fix issues in the app.,Мына батырма бағдарламадағы барлық қателіктерді түзеуге көмектеседі.
-more.help.serviceWorker.button,Reset,Қайта жүктеу
-more.privacy.heading,Privacy,Құпиялылық
-more.privacy.description,"I will never run ads or steal your personal data. I use <plausible>Plausible Analytics</plausible>, which is self-funded, independent, hosted in the EU, and doesn't store any cookies on your computer.","Мен ешқашан жарнама ойнатпаймын және жеке ақпаратыңызды ұрламаймын. Мен <plausible>Plausible Analytics</plausible> қолданамын, бұл сайт өзі қамтамасыз етілген, тәуелсіз, ЕО-да қосылған болып табылады және сіздің компьютеріңізде куки сақтамайды."
-more.givingBack.heading,Showing appreciation,Алғыс Білдіру
-more.givingBack.description,"I have spent countless hours improving this site. If you appreciate what I've made, please consider donating to charities that support racial justice and transgender rights.","Мен осы сайтты жақсартуға шексіз көп сағат жұмсадым. Егер сіз жасаған ісіме алғыс білдіргіңіз келсе, өтініш, BIPOC-ты және трансгендер құқықтарын қорғайтын қайырымдылық қорларына садақа беру туралы ойланыңыз."
-more.thanks.heading,Special thanks,Арнайы Алғыс
-more.thanks.description,See everyone who's helped make this website in the <credits>credits</credits>.,
-more.openSource.heading,Open source,Ашық Дереккөз
-more.openSource.description,Source code is available on <github>GitHub</github>.,Дереккөз кодын <github>GitHub<github> сайтынан таба аласыз.
-more.legalInfo.heading,Legal info,Заңды Ақпарат
+more.changes.heading,,
+more.changes.description,,
+more.helpMeTranslate.heading,,
+more.helpMeTranslate.description,,
+more.whatsNew.heading,,
+more.whatsNew.description,,
+more.help.heading,,Көмек
+more.help.description,,
+more.privacy.heading,,Құпиялылық
+more.privacy.description,,"Мен ешқашан жарнама ойнатпаймын және жеке ақпаратыңызды ұрламаймын. Мен <plausible>Plausible Analytics</plausible> қолданамын, бұл сайт өзі қамтамасыз етілген, тәуелсіз, ЕО-да қосылған болып табылады және сіздің компьютеріңізде куки сақтамайды."
+more.showingAppreciation.heading,,
+more.showingAppreciation.description,,
+more.specialThanks.heading,,
+more.specialThanks.description,,
+more.openSource.heading,,Ашық Дереккөз
+more.openSource.description,,Дереккөз кодын <github>GitHub<github> сайтынан таба аласыз.
+more.legalInfo.heading,,Заңды Ақпарат
+more.legalInfo.description,,
+more.contact.heading,,Менімен Байланысыңыз
+more.contact.intro,,"Сәлем, мен <homepage>Sage</homepage> (ол/олар(they/them)), және мен Покемон Тип Калькуляторын жасадым(pkmn.help)."
+more.contact.email,,"Өтініш, өз ойларыңызды және рақметтеріңізді <email>pkmn@wavebeem.com</email> поштасына жіберіңіз."
 types.normal,Normal,Кәдімгі
 types.fighting,Fighting,Жауынгер
 types.flying,Flying,Ұшатын

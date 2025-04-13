@@ -125,9 +125,6 @@ pokedexHelp.searchExamples.doubleType.description,Search for Pokémon that are e
 pokedexHelp.searchExamples.singleType.query,grass none,iarba nimic
 pokedexHelp.searchExamples.singleType.description,"Search for Pokémon that are only Grass type, no 2nd type (e.g. Tangela, Chikorita, Lilligant).","Căutați Pokémon care sunt doar tip iarbă, fără al doilea tip (de exemplu, Tangela, Chikorita, Lilligant)."
 pokedexHelp.back,Back to Pokédex,Înapoi la Pokedex
-more.contact.heading,Contact me,Contacteaza-ma
-more.contact.intro,"Hi, I'm <homepage>Sage</homepage> (they/them), and I made Pokémon Type Calculator (pkmn.help).","Bună, sunt <homepage>Sage</homepage> (ei) și am creat Calculator tip Pokémon (pkmn.help)."
-more.contact.email,Please email your thoughts and thank-yous to <email>pkmn@wavebeem.com</email>.,Trimite idei si mulțumiri la <email>pkmn@wavebeem.com</email>.
 more.settings.heading,Settings,Setari
 more.settings.language.label,Language,Limbi
 more.settings.language.default,Auto detect language,
@@ -144,20 +141,27 @@ more.settings.typeCount.label,Number of types,Numarul de tipuri
 more.settings.typeCount.help,Pokémon can briefly have three types at once if hit with Forests’s Curse or Trick-or-Treat. The third type field is hidden by default since it is rarely used.,"Pokémonul poate avea trei tipuri simultan dacă este lovit cu Blestemul Forests sau Trick-or-Treat. Al treilea câmp de tip este ascuns în mod implicit, deoarece este rar folosit."
 more.settings.typeCount.values.2,Two types (2),Doua tipuri (2)
 more.settings.typeCount.values.3,Three types (3),Tri tipuri (3)
-more.changes.heading,What’s new,
-more.changes.description,See what’s new in the <changelog>changelog</changelog>.,
-more.help.heading,Help,Ajutor
-more.help.serviceWorker.description,This button can help fix issues in the app.,Acest buton poate repara probleme in aceasta aplicatie.
-more.help.serviceWorker.button,Reset,Resetare
-more.privacy.heading,Privacy,Intimitate
-more.privacy.description,"I will never run ads or steal your personal data. I use <plausible>Plausible Analytics</plausible>, which is self-funded, independent, hosted in the EU, and doesn't store any cookies on your computer.","Nu voi difuza niciodată reclame sau nu voi fura datele dumneavoastră personale. Folosesc <plausible>Plausible Analytics</plausible>, care este autofinanțat, independent, găzduit în UE și nu stochează niciun cookie pe computerul dvs."
-more.givingBack.heading,Showing appreciation,Aratare de apreciare
-more.givingBack.description,"I have spent countless hours improving this site. If you appreciate what I've made, please consider donating to charities that support racial justice and transgender rights.","Eu am petrecut o multime de ore imbunatatind acest site. Daca apreciezi ce am facut, te rog considera donare la organizatii de caritate care supporta BIPOC si drepturile transgender."
-more.thanks.heading,Special thanks,Multumri speciale
-more.thanks.description,See everyone who's helped make this website in the <credits>credits</credits>.,
-more.openSource.heading,Open source,Sursa Deschisa
-more.openSource.description,Source code is available on <github>GitHub</github>.,Codul de sursa e valabil pe <github>Github</github>.
-more.legalInfo.heading,Legal info,Informatie legala
+more.changes.heading,,
+more.changes.description,,
+more.helpMeTranslate.heading,,
+more.helpMeTranslate.description,,
+more.whatsNew.heading,,
+more.whatsNew.description,,
+more.help.heading,,Ajutor
+more.help.description,,
+more.privacy.heading,,Intimitate
+more.privacy.description,,"Nu voi difuza niciodată reclame sau nu voi fura datele dumneavoastră personale. Folosesc <plausible>Plausible Analytics</plausible>, care este autofinanțat, independent, găzduit în UE și nu stochează niciun cookie pe computerul dvs."
+more.showingAppreciation.heading,,
+more.showingAppreciation.description,,
+more.specialThanks.heading,,
+more.specialThanks.description,,
+more.openSource.heading,,Sursa Deschisa
+more.openSource.description,,Codul de sursa e valabil pe <github>Github</github>.
+more.legalInfo.heading,,Informatie legala
+more.legalInfo.description,,
+more.contact.heading,,Contacteaza-ma
+more.contact.intro,,"Bună, sunt <homepage>Sage</homepage> (ei) și am creat Calculator tip Pokémon (pkmn.help)."
+more.contact.email,,Trimite idei si mulțumiri la <email>pkmn@wavebeem.com</email>.
 types.normal,Normal,Normal
 types.fighting,Fighting,Luptand
 types.flying,Flying,Zburand

@@ -125,9 +125,6 @@ pokedexHelp.searchExamples.doubleType.description,Search for Pokémon that are e
 pokedexHelp.searchExamples.singleType.query,grass none,Травяной ничего
 pokedexHelp.searchExamples.singleType.description,"Search for Pokémon that are only Grass type, no 2nd type (e.g. Tangela, Chikorita, Lilligant).","Поиск Покемонов только с травяным типом (например, Танджелла, Чикорита, Лилигант)."
 pokedexHelp.back,Back to Pokédex,Назад к Покедексу
-more.contact.heading,Contact me,Свяжитесь Со Мной
-more.contact.intro,"Hi, I'm <homepage>Sage</homepage> (they/them), and I made Pokémon Type Calculator (pkmn.help).","Привет, Я <homepage>Sage</homepage> (they/them), и я сделал Калькулятор Типов Покемонов (pkmn.help)."
-more.contact.email,Please email your thoughts and thank-yous to <email>pkmn@wavebeem.com</email>.,"Пожалуйста, пишите свои мысли и благодарности по Имейл адресу   <email>pkmn@wavebeem.com</email>."
 more.settings.heading,Settings,Настройки
 more.settings.language.label,Language,Язык
 more.settings.language.default,Auto detect language,Автоопределенный язык
@@ -144,20 +141,27 @@ more.settings.typeCount.label,Number of types,Число типов
 more.settings.typeCount.help,Pokémon can briefly have three types at once if hit with Forests’s Curse or Trick-or-Treat. The third type field is hidden by default since it is rarely used.,"Покемоны реально могут иметь три типа за раз если по ним были использованы атаки Forests's Curse или Trick-or-Treat. Поле третьего типа скрыто по умолчанию, так как им пользуются редко."
 more.settings.typeCount.values.2,Two types (2),Два типа(2)
 more.settings.typeCount.values.3,Three types (3),Три типа(3)
-more.changes.heading,What’s new,
-more.changes.description,See what’s new in the <changelog>changelog</changelog>.,
-more.help.heading,Help,Помощь
-more.help.serviceWorker.description,This button can help fix issues in the app.,Эта кнопка поможет исправить ошибки в программе.
-more.help.serviceWorker.button,Reset,Перезагрузить
-more.privacy.heading,Privacy,Конфиденциальность
-more.privacy.description,"I will never run ads or steal your personal data. I use <plausible>Plausible Analytics</plausible>, which is self-funded, independent, hosted in the EU, and doesn't store any cookies on your computer.","Я никогда не буду ничего рекламировать или красть ваши личные данные. Я использую <plausible>Plausible Analytics</plausible>, что является самофинансируемым, независимым, размещенным в ЕС сайтом, который не сохраняет куки на вашем компьютере."
-more.givingBack.heading,Showing appreciation,Выражение Признательности
-more.givingBack.description,"I have spent countless hours improving this site. If you appreciate what I've made, please consider donating to charities that support racial justice and transgender rights.","Я потратил бесчисленное количество часов совершенствуя этот сайт. Если вы цените то, что я сделал, то пожалуйста, рассмотрите возможность пожертвования благотворительным учреждениям, которые поддерживают BIPOC и права трансгендеров."
-more.thanks.heading,Special thanks,Особая Благодарность
-more.thanks.description,See everyone who's helped make this website in the <credits>credits</credits>.,
-more.openSource.heading,Open source,Открытый Источник
-more.openSource.description,Source code is available on <github>GitHub</github>.,Исходный код доступен на <github>GitHub</github>.
-more.legalInfo.heading,Legal info,Легальная Информация
+more.changes.heading,,
+more.changes.description,,
+more.helpMeTranslate.heading,,
+more.helpMeTranslate.description,,
+more.whatsNew.heading,,
+more.whatsNew.description,,
+more.help.heading,,Помощь
+more.help.description,,
+more.privacy.heading,,Конфиденциальность
+more.privacy.description,,"Я никогда не буду ничего рекламировать или красть ваши личные данные. Я использую <plausible>Plausible Analytics</plausible>, что является самофинансируемым, независимым, размещенным в ЕС сайтом, который не сохраняет куки на вашем компьютере."
+more.showingAppreciation.heading,,
+more.showingAppreciation.description,,
+more.specialThanks.heading,,
+more.specialThanks.description,,
+more.openSource.heading,,Открытый Источник
+more.openSource.description,,Исходный код доступен на <github>GitHub</github>.
+more.legalInfo.heading,,Легальная Информация
+more.legalInfo.description,,
+more.contact.heading,,Свяжитесь Со Мной
+more.contact.intro,,"Привет, Я <homepage>Sage</homepage> (they/them), и я сделал Калькулятор Типов Покемонов (pkmn.help)."
+more.contact.email,,"Пожалуйста, пишите свои мысли и благодарности по Имейл адресу   <email>pkmn@wavebeem.com</email>."
 types.normal,Normal,Нормаль
 types.fighting,Fighting,Боевой
 types.flying,Flying,Летающий

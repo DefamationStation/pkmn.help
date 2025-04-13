@@ -125,9 +125,6 @@ pokedexHelp.searchExamples.doubleType.description,Search for Pokémon that are e
 pokedexHelp.searchExamples.singleType.query,grass none,grass none
 pokedexHelp.searchExamples.singleType.description,"Search for Pokémon that are only Grass type, no 2nd type (e.g. Tangela, Chikorita, Lilligant).","Search for Pokémon that are only Grass type, no 2nd type (e.g. Tangela, Chikorita, Lilligant)."
 pokedexHelp.back,Back to Pokédex,Back to Pokédex
-more.contact.heading,Contact me,Contact me
-more.contact.intro,"Hi, I'm <homepage>Sage</homepage> (they/them), and I made Pokémon Type Calculator (pkmn.help).","Hi, I'm <homepage>Sage</homepage> (they/them), and I made Pokémon Type Calculator (pkmn.help)."
-more.contact.email,Please email your thoughts and thank-yous to <email>pkmn@wavebeem.com</email>.,Please email your thoughts and thank-yous to <email>pkmn@wavebeem.com</email>.
 more.settings.heading,Settings,Settings
 more.settings.language.label,Language,Language
 more.settings.language.default,Auto detect language,Auto detect language
@@ -144,20 +141,27 @@ more.settings.typeCount.label,Number of types,Number of types
 more.settings.typeCount.help,Pokémon can briefly have three types at once if hit with Forests’s Curse or Trick-or-Treat. The third type field is hidden by default since it is rarely used.,Pokémon can briefly have three types at once if hit with Forests’s Curse or Trick-or-Treat. The third type field is hidden by default since it is rarely used.
 more.settings.typeCount.values.2,Two types (2),Two types (2)
 more.settings.typeCount.values.3,Three types (3),Three types (3)
-more.changes.heading,What’s new,What’s new
-more.changes.description,See what’s new in the <changelog>changelog</changelog>.,See what’s new in the <changelog>changelog</changelog>.
-more.help.heading,Help,Help
-more.help.serviceWorker.description,This button can help fix issues in the app.,This button can help fix issues in the app.
-more.help.serviceWorker.button,Reset,Reset
-more.privacy.heading,Privacy,Privacy
-more.privacy.description,"I will never run ads or steal your personal data. I use <plausible>Plausible Analytics</plausible>, which is self-funded, independent, hosted in the EU, and doesn't store any cookies on your computer.","I will never run ads or steal your personal data. I use <plausible>Plausible Analytics</plausible>, which is self-funded, independent, hosted in the EU, and doesn't store any cookies on your computer."
-more.givingBack.heading,Showing appreciation,Showing appreciation
-more.givingBack.description,"I have spent countless hours improving this site. If you appreciate what I've made, please consider donating to charities that support racial justice and transgender rights.","I have spent countless hours improving this site. If you appreciate what I've made, please consider donating to charities that support racial justice and transgender rights."
-more.thanks.heading,Special thanks,Special thanks
-more.thanks.description,See everyone who's helped make this website in the <credits>credits</credits>.,See everyone who's helped make this website in the <credits>credits</credits>.
-more.openSource.heading,Open source,Open source
-more.openSource.description,Source code is available on <github>GitHub</github>.,Source code is available on <github>GitHub</github>.
-more.legalInfo.heading,Legal info,Legal info
+more.changes.heading,,
+more.changes.description,,
+more.helpMeTranslate.heading,,
+more.helpMeTranslate.description,,
+more.whatsNew.heading,,
+more.whatsNew.description,,
+more.help.heading,,
+more.help.description,,
+more.privacy.heading,,
+more.privacy.description,,
+more.showingAppreciation.heading,,
+more.showingAppreciation.description,,
+more.specialThanks.heading,,
+more.specialThanks.description,,
+more.openSource.heading,,
+more.openSource.description,,
+more.legalInfo.heading,,
+more.legalInfo.description,,
+more.contact.heading,,
+more.contact.intro,,
+more.contact.email,,
 types.normal,Normal,Normal
 types.fighting,Fighting,Fighting
 types.flying,Flying,Flying

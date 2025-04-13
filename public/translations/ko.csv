@@ -125,9 +125,6 @@ pokedexHelp.searchExamples.doubleType.description,Search for Pokémon that are e
 pokedexHelp.searchExamples.singleType.query,grass none,풀 없음
 pokedexHelp.searchExamples.singleType.description,"Search for Pokémon that are only Grass type, no 2nd type (e.g. Tangela, Chikorita, Lilligant).","단일 풀 타입 포켓몬을 검색합니다.(예: 덩쿠리, 치코리타, 드레디어)."
 pokedexHelp.back,Back to Pokédex,포켓몬 도감으로 돌아가기
-more.contact.heading,Contact me,문의
-more.contact.intro,"Hi, I'm <homepage>Sage</homepage> (they/them), and I made Pokémon Type Calculator (pkmn.help).","안녕하세요, 저는 <homepage>Sage</homepage> (they/them으로 지칭해 주세요) 이고 Pokémon Type Calculator (pkmn.help)를 만들었습니다."
-more.contact.email,Please email your thoughts and thank-yous to <email>pkmn@wavebeem.com</email>.,여러분의 생각과 감사를 <email>pkmn@wavebeem.com</email> 로 보내주세요.
 more.settings.heading,Settings,설정
 more.settings.language.label,Language,언어
 more.settings.language.default,Auto detect language,언어 자동 감지
@@ -144,20 +141,27 @@ more.settings.typeCount.label,Number of types,타입의 수
 more.settings.typeCount.help,Pokémon can briefly have three types at once if hit with Forests’s Curse or Trick-or-Treat. The third type field is hidden by default since it is rarely used.,포켓몬이 '숲의저주'나 '핼러윈'에 맞으면 잠시 동안 한 번에 세 가지 유형을 가질 수 있습니다. 세 번째 유형은 거의 사용되지 않기 때문에 기본적으로 숨겨져 있습니다.
 more.settings.typeCount.values.2,Two types (2),두 가지 유형(2)
 more.settings.typeCount.values.3,Three types (3),세 가지 유형 (3)
-more.changes.heading,What’s new,새로운 기능
-more.changes.description,See what’s new in the <changelog>changelog</changelog>.,<changelog>변경 로그</changelog> 에서 변경 사항을 볼 수 있습니다.
-more.help.heading,Help,도움말
-more.help.serviceWorker.description,This button can help fix issues in the app.,위 버튼을 누르면 앱의 문제를 해결하는 데 도움이 될 수 있습니다.
-more.help.serviceWorker.button,Reset,초기화
-more.privacy.heading,Privacy,개인정보 보호
-more.privacy.description,"I will never run ads or steal your personal data. I use <plausible>Plausible Analytics</plausible>, which is self-funded, independent, hosted in the EU, and doesn't store any cookies on your computer.","절대 광고를 게재하거나 개인정보를 도용하지 않습니다. 저는 <plausible>Plausible Analytics</plausible>를 사용하고 있으며, 이곳은 유럽 연합에서 자체적으로 자금을 조달하고 독립적이며 당신의 컴퓨터에 쿠키를 저장하지 않습니다."
-more.givingBack.heading,Showing appreciation,감사 표하기
-more.givingBack.description,"I have spent countless hours improving this site. If you appreciate what I've made, please consider donating to charities that support racial justice and transgender rights.",저는 이 사이트를 개선하는 데 많은 시간을 보냈습니다. 제가 만든 것에 고마움을 표하고 싶으시다면 흑인과 원주민 및 트랜스젠더 권리를 지원하는 자선 단체에 기부하는 것을 고려해 주세요.
-more.thanks.heading,Special thanks,도움을 주신 분들
-more.thanks.description,See everyone who's helped make this website in the <credits>credits</credits>.,
-more.openSource.heading,Open source,오픈 소스
-more.openSource.description,Source code is available on <github>GitHub</github>.,소스 코드는 <github>GitHub</github>에서 확인할 수 있습니다.
-more.legalInfo.heading,Legal info,법률 정보
+more.changes.heading,,새로운 기능
+more.changes.description,,<changelog>변경 로그</changelog> 에서 변경 사항을 볼 수 있습니다.
+more.helpMeTranslate.heading,,
+more.helpMeTranslate.description,,
+more.whatsNew.heading,,
+more.whatsNew.description,,
+more.help.heading,,도움말
+more.help.description,,
+more.privacy.heading,,개인정보 보호
+more.privacy.description,,"절대 광고를 게재하거나 개인정보를 도용하지 않습니다. 저는 <plausible>Plausible Analytics</plausible>를 사용하고 있으며, 이곳은 유럽 연합에서 자체적으로 자금을 조달하고 독립적이며 당신의 컴퓨터에 쿠키를 저장하지 않습니다."
+more.showingAppreciation.heading,,
+more.showingAppreciation.description,,
+more.specialThanks.heading,,
+more.specialThanks.description,,
+more.openSource.heading,,오픈 소스
+more.openSource.description,,소스 코드는 <github>GitHub</github>에서 확인할 수 있습니다.
+more.legalInfo.heading,,법률 정보
+more.legalInfo.description,,
+more.contact.heading,,문의
+more.contact.intro,,"안녕하세요, 저는 <homepage>Sage</homepage> (they/them으로 지칭해 주세요) 이고 Pokémon Type Calculator (pkmn.help)를 만들었습니다."
+more.contact.email,,여러분의 생각과 감사를 <email>pkmn@wavebeem.com</email> 로 보내주세요.
 types.normal,Normal,노말
 types.fighting,Fighting,격투
 types.flying,Flying,비행
