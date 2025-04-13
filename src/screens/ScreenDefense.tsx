@@ -11,6 +11,7 @@ import { Flex } from "../components/Flex";
 import { Matchups } from "../components/Matchups";
 import { Select } from "../components/Select";
 import { MultiTypeSelector } from "../components/MultiTypeSelector";
+import { BestTypeMatchups } from "../components/BestTypeMatchups";
 import { useScrollToFragment } from "../hooks/useScrollToFragment";
 import { useSearch } from "../hooks/useSearch";
 import { useTypeCount } from "../hooks/useTypeCount";
@@ -175,9 +176,7 @@ export function ScreenDefense(): ReactNode {
               specialMoves={[]}
             />
           </Flex>
-        </Card>
-
-        <Card>
+        </Card>        <Card>
           <Flex direction="column" gap="large">
             <FancyText tag="h2" fontSize="large" fontWeight="medium">
               {t("pokedex.offense.text")}
@@ -190,6 +189,19 @@ export function ScreenDefense(): ReactNode {
               teraType={Type.none}
               offenseAbilities={[]}
               specialMoves={[]}
+            />
+          </Flex>
+        </Card>
+
+        <Card>
+          <Flex direction="column" gap="large">
+            <FancyText tag="h2" fontSize="large" fontWeight="medium">
+              Best Overall Types
+            </FancyText>
+            <BestTypeMatchups
+              generation={generation}
+              types={types}
+              teraType={teraType}
             />
           </Flex>
         </Card>
