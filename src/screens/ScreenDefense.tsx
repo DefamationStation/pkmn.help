@@ -159,8 +159,23 @@ export function ScreenDefense(): ReactNode {
 
         <Flex>
           <CopyButton text={permalink.href}>{t("general.copyLink")}</CopyButton>
+
+          <Card>
+            <Flex direction="column" gap="large">
+              <FancyText tag="h2" fontSize="large" fontWeight="medium">
+                Best Overall Types
+              </FancyText>
+              <BestTypeMatchups
+                generation={generation}
+                types={types}
+                teraType={teraType}
+              />
+            </Flex>
+          </Card>
         </Flex>
-      </Flex>      <Flex direction="column" gap="xlarge">
+      </Flex>
+
+      <Flex direction="column" gap="xlarge">
         <Card>
           <Flex direction="column" gap="large">
             <FancyText tag="h2" fontSize="large" fontWeight="medium">
@@ -176,7 +191,9 @@ export function ScreenDefense(): ReactNode {
               specialMoves={[]}
             />
           </Flex>
-        </Card>        <Card>
+        </Card>
+
+        <Card>
           <Flex direction="column" gap="large">
             <FancyText tag="h2" fontSize="large" fontWeight="medium">
               {t("pokedex.offense.text")}
@@ -189,19 +206,6 @@ export function ScreenDefense(): ReactNode {
               teraType={Type.none}
               offenseAbilities={[]}
               specialMoves={[]}
-            />
-          </Flex>
-        </Card>
-
-        <Card>
-          <Flex direction="column" gap="large">
-            <FancyText tag="h2" fontSize="large" fontWeight="medium">
-              Best Overall Types
-            </FancyText>
-            <BestTypeMatchups
-              generation={generation}
-              types={types}
-              teraType={teraType}
             />
           </Flex>
         </Card>
