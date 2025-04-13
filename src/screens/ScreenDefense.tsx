@@ -158,18 +158,33 @@ export function ScreenDefense(): ReactNode {
         <Flex>
           <CopyButton text={permalink.href}>{t("general.copyLink")}</CopyButton>
         </Flex>
-      </Flex>
+      </Flex>      <Flex direction="column" gap="xlarge">
+        <Flex direction="column" gap="large">
+          <Matchups
+            kind="defense"
+            generation={generation}
+            types={types}
+            ability={ability}
+            teraType={teraType}
+            offenseAbilities={[]}
+            specialMoves={[]}
+          />
+        </Flex>
 
-      <Flex direction="column" gap="large">
-        <Matchups
-          kind="defense"
-          generation={generation}
-          types={types}
-          ability={ability}
-          teraType={teraType}
-          offenseAbilities={[]}
-          specialMoves={[]}
-        />
+        <Flex direction="column" gap="large">
+          <FancyText tag="h2" fontSize="large" fontWeight="medium">
+            {t("pokedex.offense.text")}
+          </FancyText>
+          <Matchups
+            kind="offense"
+            generation={generation}
+            types={types}
+            ability={"none"}
+            teraType={Type.none}
+            offenseAbilities={[]}
+            specialMoves={[]}
+          />
+        </Flex>
       </Flex>
     </main>
   );
