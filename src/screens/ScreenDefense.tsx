@@ -3,6 +3,7 @@ import { ReactNode, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { useSessionStorage } from "usehooks-ts";
+import { Card } from "../components/Card";
 import { CopyButton } from "../components/CopyButton";
 import { DefenseTabs } from "../components/DefenseTabs";
 import { FancyText } from "../components/FancyText";
@@ -159,32 +160,39 @@ export function ScreenDefense(): ReactNode {
           <CopyButton text={permalink.href}>{t("general.copyLink")}</CopyButton>
         </Flex>
       </Flex>      <Flex direction="column" gap="xlarge">
-        <Flex direction="column" gap="large">
-          <Matchups
-            kind="defense"
-            generation={generation}
-            types={types}
-            ability={ability}
-            teraType={teraType}
-            offenseAbilities={[]}
-            specialMoves={[]}
-          />
-        </Flex>
+        <Card>
+          <Flex direction="column" gap="large">
+            <FancyText tag="h2" fontSize="large" fontWeight="medium">
+              Defense
+            </FancyText>
+            <Matchups
+              kind="defense"
+              generation={generation}
+              types={types}
+              ability={ability}
+              teraType={teraType}
+              offenseAbilities={[]}
+              specialMoves={[]}
+            />
+          </Flex>
+        </Card>
 
-        <Flex direction="column" gap="large">
-          <FancyText tag="h2" fontSize="large" fontWeight="medium">
-            {t("pokedex.offense.text")}
-          </FancyText>
-          <Matchups
-            kind="offense"
-            generation={generation}
-            types={types}
-            ability={"none"}
-            teraType={Type.none}
-            offenseAbilities={[]}
-            specialMoves={[]}
-          />
-        </Flex>
+        <Card>
+          <Flex direction="column" gap="large">
+            <FancyText tag="h2" fontSize="large" fontWeight="medium">
+              {t("pokedex.offense.text")}
+            </FancyText>
+            <Matchups
+              kind="offense"
+              generation={generation}
+              types={types}
+              ability={"none"}
+              teraType={Type.none}
+              offenseAbilities={[]}
+              specialMoves={[]}
+            />
+          </Flex>
+        </Card>
       </Flex>
     </main>
   );
