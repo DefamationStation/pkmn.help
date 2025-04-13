@@ -243,7 +243,8 @@ export function Layout(): ReactNode {
             <button
               className={styles.headerButton}
               data-theme={pokeballTheme}
-              aria-hidden={true}
+              aria-hidden="true"
+              title="Change Pokéball theme"
               onClick={(event) => {
                 event.preventDefault();
                 const pkmn = randomItem(AllPokemon);
