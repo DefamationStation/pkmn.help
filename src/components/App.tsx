@@ -267,15 +267,6 @@ export function Layout(): ReactNode {
             <NavLink className={tabClass} to="/pokedex/">
               {t("navigation.pokedex")}
             </NavLink>
-            <NavLink
-              className={classNames(
-                tabClass,
-                needRefresh && styles.pleaseUpdate
-              )}
-              to="/more/"
-            >
-              {t("navigation.more")}
-            </NavLink>
           </nav>
           <Outlet />
         </div>
